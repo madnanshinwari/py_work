@@ -30,7 +30,7 @@ def fullName(fName, lName):
 
 fullName("Adnan", "khan")
 
-#
+# arbitrary arguments
 
 
 def fruitsName(*name):
@@ -39,3 +39,22 @@ def fruitsName(*name):
 
 
 fruitsName("banana", "apple", "orange", "mango")
+
+
+# keyword arbitrary arguments
+# show the values in thor form of dictionary
+def name(**name):
+    print(type(name))
+    print("Hello,", name["fname"], name["mname"], name["lname"])
+
+
+name(mname="ali ", lname="khan", fname="Ahmad ")
+
+# return keyword
+
+
+def add(a, b):
+    return a+b
+
+    # print("the sum of a & b is :", a+b)
+add(7, 8)
