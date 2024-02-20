@@ -1,4 +1,6 @@
+
 def multi(n):
+    # print(n)
     """function can take  value and retrun it's value """  # this is not comment they are used to document the code
     print(n*2)
 
