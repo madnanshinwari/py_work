@@ -5,5 +5,6 @@ def factorial(n):
         return (n * factorial(n-1))
 
 
+# driver code
 n = 6
 print(factorial(6))
