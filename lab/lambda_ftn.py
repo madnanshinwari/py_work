@@ -16,6 +16,8 @@ def cube(x): return x*x*x
 
 print(cube(5))
 
+# call one function to inside another function
+
 
 def both_ftn(ftn, value):
     return 6 + ftn(value)
