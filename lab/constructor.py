@@ -11,5 +11,7 @@ class Person:
 # one method to access value
 p1 = Person("Adnan", 22)
 print(f"I'm {p1.name} and my age is {p1.age}")
+
+# another method to access the values to create a function and call it
 p2 = Person("Dawood", 23)
 p2.output()
