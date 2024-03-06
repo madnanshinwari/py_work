@@ -6,4 +6,3 @@ a = mymodule.person["age"] # access the dictionary
 print(a)"""
 
 print(person["age"])  # when we use the from keyword  don't use module name
-print(hello("khan"))
